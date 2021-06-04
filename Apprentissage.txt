@@ -1,0 +1,15 @@
+Responded directly to customer support tickets, identifying and fixing bugs, and adding requested changes to the change packages (T-SQL, JS, JS API, VB)
+Migrated servers and databases
+Created web applications, windows applications (Winforms) and database components within an existing system and development framework
+Verified and improved data integrity (removed old data while working around constraints, implemented differing views structure to reflect changes elsewhere)
+Gave training to end users (clients) on how to use the technology, explaining the buisness logic and relevant document control use cases
+Participated in change package reviews where we reviewed change packages and deliberated on best implementation for performance and security
+Passed Microsoft T-SQL Certification Exam
+Passed internal certification exam on their inbuilt DB security, completed internal certification for their software (Pims DC) and dev environment (Pims Appframe)
+Worked with team while doing all of the above
+Helped to implement a new module into preproduction, then eventually production (Risk Management)
+Worked with sandbox, test, preprod and prod environments (multiple prod/preprod) in implementing and migrating changes across domains
+Managed user roles and permissions across all live environments with domains (to manage row-level permissions) while being mindful of inbuilt security
+Participated in client meetings to discuss implementation of new features and modification of existing ones
+Worked in the Agile method, a stand-up meeting for 15 minutes every day and a review once a week on progress, used Trello to track tasks and progress
+Removed library dependencies from existing modules to import them (+ customised for unique domains) and overseen implementation into preprod and prod
