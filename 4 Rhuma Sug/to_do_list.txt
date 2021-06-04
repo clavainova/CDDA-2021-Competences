@@ -1,0 +1,29 @@
+known errors:
+- none!
+
+>>>>function handleOrder($pdo, $userId, $productId, $quantity, $sc, $cardnum)
+secondaryVerification
+
+current>>>>payment verification and writing to database
+
+ALTER TABLE Orders 
+ADD CONSTRAINT fk_category 
+FOREIGN KEY (client_id) 
+REFERENCES Clients(client_id)
+
+//
+
+ALTER TABLE Clients 
+ADD CONSTRAINT fk_category 
+FOREIGN KEY (order_id) 
+REFERENCES Orders(order_id)
+MySQL said: Documentation
+#1022 - Can't write; duplicate key in table '#sql-5b0_310'
+
+other:
+- configure .htaccess
+- distinguish types of postage -- eu/international
+- checkout
+- purchase confirmation
+- history -- list of orders by client id?
+- monitor current order

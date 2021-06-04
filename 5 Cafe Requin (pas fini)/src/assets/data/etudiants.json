@@ -1,0 +1,32 @@
+[
+    {
+        "_id": 0,
+        "nom": "Americano",
+        "description": "Coffee with water and milk",
+        "age": 5,
+        "promo": {
+            "nom": "Tasty",
+            "description" : "This was good coffee"
+        }
+    },
+    {
+        "_id": 1,
+        "nom": "Espresso",
+        "description": "Strong coffee with water",
+        "age": 2,
+        "promo": {
+            "nom": "Hmm",
+            "description" : "Ok, but bitter"
+        }
+    },
+    {
+        "_id": 2,
+        "nom": "Tea",
+        "description": "This is not coffee",
+        "age": 1,
+        "promo": {
+            "nom": "disappointing",
+            "description" : "This was actually not coffee?! I am disappointed."
+        }
+    }
+]

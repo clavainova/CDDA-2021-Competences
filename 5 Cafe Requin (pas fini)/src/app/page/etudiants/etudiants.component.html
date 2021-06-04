@@ -1,0 +1,15 @@
+<section>
+    <div>
+        <h1>Menu</h1>
+        <input name="rech" [(ngModel)]="recherche" placeholder="Search for an item">
+    </div>
+    <div>
+        <article *ngFor="let s of dataServe.etudiants | etudiantPipe:recherche">
+            <h2>Name: {{s.nom}} </h2>
+            <p><u>Description:</u> {{s.description}} </p>
+            <p *ngIf="s.age"><u>Rating:</u> {{s.age}}</p>
+            <p *ngIf="s.promo.nom"><u>Review:</u> {{s.promo.nom}}, {{s.promo.description}}</p>
+            <br/><a [routerLink]="['/etudiant', s._id]">More info!</a>
+        </article>
+    </div>
+</section>
