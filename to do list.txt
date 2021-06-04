@@ -1,0 +1,16 @@
+To do:
+
+weather app:
+- rewrap .api for mobile app, resubmit to play store, begin user testing
+
+fil rouge electron api/self-made node api:
+- connect to mongodb
+- wrap in docker containers
+- upload to aws
+
+cafe requin:
+-remake db connection + infastrcuture
+-finish pages
+
+fil rouge:
+-rdv with team when ready to present work
