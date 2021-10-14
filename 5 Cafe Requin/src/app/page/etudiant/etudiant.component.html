@@ -1,0 +1,21 @@
+<article *ngIf="this.dataServe.getEtudiantById(this.id) !== null">
+    <h3>{{this.dataServe.getEtudiantById(this.id).nom}}</h3>
+    <p>{{this.dataServe.getEtudiantById(this.id)._id}}</p>
+    <p>{{this.dataServe.getEtudiantById(this.id).description}}</p>
+    <p *ngIf="this.dataServe.getEtudiantById(this.id).age">{{this.dataServe.getEtudiantById(this.id).age}}</p>
+    <p *ngIf="this.dataServe.getEtudiantById(this.id).promo">{{this.dataServe.getEtudiantById(this.id).promo.nom}},
+        {{this.dataServe.getEtudiantById(this.id).promo.description}}</p>
+</article>
+
+<article *ngIf="this.dataServe.getEtudiantById(this.id) !== null && this.isAuthentified == true">
+    <h1>EDIT</h1>
+    Name: <input value="{{this.dataServe.getEtudiantById(this.id).nom}}">
+    <br>ID: <input value="{{this.dataServe.getEtudiantById(this.id)._id}}">
+    <br>Description: <input value="{{this.dataServe.getEtudiantById(this.id).description}}">
+    <br>Age: <input *ngIf="this.dataServe.getEtudiantById(this.id).age" value="{{this.dataServe.getEtudiantById(this.id).age}}">
+    <br>Promo ID: <input *ngIf="this.dataServe.getEtudiantById(this.id).promo" value="{{this.dataServe.getEtudiantById(this.id).promo.nom}}">
+    <br>Promo name: <input value="{{this.dataServe.getEtudiantById(this.id).promo.description}}">
+    <button>Send</button> 
+    <!-- (click)="" -->
+    <button>Cancel</button>
+</article>

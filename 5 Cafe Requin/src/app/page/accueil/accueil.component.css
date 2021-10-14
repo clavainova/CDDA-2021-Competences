@@ -1,0 +1,15 @@
+h2 {
+    font-style: italic;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, u, blockquote, span {
+    background: linear-gradient(to right, rgb(255, 220, 106), rgb(255, 162, 56));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}

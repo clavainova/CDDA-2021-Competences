@@ -1,0 +1,30 @@
+textarea {
+    min-height: 70px;
+}
+
+input, textarea, span{
+    margin-right: 30px;
+}
+
+article{
+    max-width: 95vw;
+    background: linear-gradient(to right, rgba(255, 127, 176, 1), rgba(143, 36, 255, 1));
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+button, .button{
+    background: white;
+    color: rgb(209, 134, 146);
+    font-weight: bold;
+}
+
+form{
+    max-width: 800px;
+    min-width: 600px;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 10px;
+}

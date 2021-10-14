@@ -1,0 +1,18 @@
+[
+    {
+        "title": "accueil_header",
+        "data": "Welcome to Café Requin!"
+    },
+    {
+        "title": "accueil_home_message",
+        "data": "At the moment we are closed because of confinement. However, you may still browse our products online or subscribe to be notified upon reopening."
+    },
+    {
+        "title": "accueil_slogan",
+        "data": "The best coffee in Pau"
+    },
+    {
+        "title": "accueil_img",
+        "data": "coffee.jpeg"
+    }
+]

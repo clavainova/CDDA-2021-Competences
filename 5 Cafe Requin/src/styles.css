@@ -1,0 +1,141 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {
+    font-family: "Arial";
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+footer {
+    width: 100vw;
+    padding: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    font-style: oblique;
+    border-left: 20px solid #BE628E;
+    height: 5vh;
+    min-height: 80px;
+}
+
+footer p {
+    margin-left: 50px;
+}
+
+article, footer {
+    left: 0;
+    width: 100vw;
+    font: 18px / 1.5 sans-serif;
+}
+
+article {
+    margin-top: 0;
+    padding: 5em;
+}
+
+input, textarea {
+    color: black;
+    padding-left: 10px;
+}
+
+input.ng-invalid, textarea.ng-invalid {
+    border-bottom: 1px solid rgb(216, 42, 109);
+    border-width: 2px;
+}
+
+input.ng-valid[required], textarea.ng-valid {
+    border-bottom: rgb(97, 240, 31);
+    border-width: 2px;
+}
+
+article, button, .button, footer {
+    background: #F5F5F5;
+    background: linear-gradient(to right, rgba(255, 127, 176, 1), rgba(143, 36, 255, 1));
+}
+
+span {
+    text-align: center;
+    font-size: 0.75em;
+    font-style: oblique;
+}
+
+body {
+    background: white;
+}
+
+button, .button {
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    margin: 10px;
+    padding: 5px;
+    transition: all .2s ease-in-out;
+}
+
+button:hover, .button:hover {
+    transform: scale(1.05);
+    background: rgb(255, 229, 144);
+}
+
+.button {
+    min-width: 200px;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    border-radius: 5px;
+}
+
+.grid {
+    display: grid;
+    row-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+nav ul {
+    white-space: nowrap;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #c84678;
+    background-color: white;
+    min-width: 10vw;
+    text-align: center;
+}
+
+.sub {
+    color: #aa46c8;
+    margin-top: 0;
+    min-width: 5vw;
+}
+
+nav li:after, h1:after, h2:after {
+    font-weight: bolder;
+    content: " ☆";
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+img {
+    width: 100vw;
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: 0;
+}

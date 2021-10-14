@@ -1,0 +1,24 @@
+npm start (to run app)
+
+https://stackoverflow.com/questions/38479607/how-do-i-use-mongodb-with-electron
+
+
+
+
+- redirect if not logged in
+
+- read from json to dynamically load page (see already-written script elsewhere)
+- CR
+[N/A] html/css for see games ALL + see game (one)
+[N/A] html/css for add teams to games (createGame?)
+- test write JSON/delete JSON
+[N/A] make classes(?) for each object type in the JSON?? some way to edit it idk smh
+[N/A] apply some kind of css to the navbar, +100 points if it's the intended css
+
+other js needed after crud established:
+    [N/A] timer
+    [N/A] game clearly needs more data in db or is it supposed to be stored locally? seems like a bad idea, ask gerald
+    [N/A] anyway right now locally store ongoing games in some format
+    - just add new game info as new json? seems to make more sense than deleting it each time
+
+[N/A] [optional: fix bg loop]

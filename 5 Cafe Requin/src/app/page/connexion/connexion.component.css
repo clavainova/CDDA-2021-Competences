@@ -1,0 +1,18 @@
+form{
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 10px;
+}
+
+article{
+    max-width: 95vw;
+    background: linear-gradient(to right, rgba(255, 127, 176, 1), rgba(143, 36, 255, 1));
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+article form{
+    padding: 50px;
+}

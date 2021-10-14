@@ -1,0 +1,16 @@
+ {
+   "expo": {
+    "name": "Weather",
+    "icon": "./assets/cloud.png",
+    "version": "1.0.0",
+    "slug": "weather",
+    "ios": {
+      "bundleIdentifier": "com.yourcompany.yourappname",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.example.mypackage",
+      "versionCode": 1
+    }
+   }
+ }
