@@ -1,0 +1,8 @@
+#node & temp files
+node_modules/**/*
+.expo/*
+npm-debug.*
+
+#clavain's dev notes
+extensions.txt
+lastfunctionalversion/*

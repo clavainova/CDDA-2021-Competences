@@ -80,7 +80,6 @@ div {
 }
 
 select {
-    overflow-y: hidden;
     min-height: 135px;
     width: 25vw;
     padding: 5px;
@@ -126,17 +125,80 @@ button, input {
     box-shadow: 6px 6px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
+.errorMessage, .successMessage {
+    position: fixed;
+    width: 100%;
+}
+
 .errorMessage {
     background-color: rgb(255, 219, 153, 0.97);
     color: red;
-    bottom: 0;
-    position: fixed;
-    width: 100%;
     border-left: 15px solid red;
+    bottom: 0;
+}
+
+.successMessage {
+    background-color: rgba(211, 255, 153, 0.97);
+    color: green;
+    border-left: 15px solid green;
+    top: 0;
 }
 
 .errorMessage:after {
     content: ". Click on this message to hide it.";
+}
+
+.waitMessage {
+    background-color: rgb(255, 245, 191);
+    color: black;
+    border: 15px solid rgb(255, 174, 0);
+    top: 25%;
+    left: 20%;
+    width: 50%;
+    position: absolute;
+}
+
+.waitMessage:after {
+    content: "...";
+    animation-name: waitMessageFrames;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes waitMessageFrames {
+    0% {
+        content: "...."
+    }
+    10% {
+        content: "....."
+    }
+    20% {
+        content: "......"
+    }
+    30% {
+        content: "......."
+    }
+    40% {
+        content: "........"
+    }
+    50% {
+        content: "........."
+    }
+    60% {
+        content: ".........."
+    }
+    70% {
+        content: "..........."
+    }
+    80% {
+        content: "............"
+    }
+    90% {
+        content: "............."
+    }
+    100% {
+        content: ".............."
+    }
 }
 
 nav ul {
@@ -180,7 +242,7 @@ button {
 }
 
 button:hover {
-    background-color:  rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     color: black;
     transition: background 0.5s ease-in-out;
 }
